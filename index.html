@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>The Special Edition</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;700&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<div id="fx"></div><canvas id="cf"></canvas>
+<main id="deck">
+
+<section class="slide active" data-i="0">
+ <div class="top"><b>THE SPECIAL EDITION</b><b data-nick></b><b>VOL. <span data-year></span></b></div>
+ <div class="cv">
+  <div class="yr" id="yr"></div>
+  <div class="grid">
+   <div class="t a bw" data-m="SUPERNOVA. Ia masuk ruangan, semua ikut menoleh."><em>supernova</em></div>
+   <div class="t main" id="mn"><div class="m bw"></div><div class="m cl"></div><i class="hd"></i></div>
+   <div class="t b" data-m="Tatapan yang bilang: aku tahu apa yang sedang kulakukan."><em class="h">life's too short</em></div>
+   <div class="t c" data-m="Diam pun bisa jadi gaya."></div>
+   <div class="t d" id="ag" data-m=""><b data-age></b><small>YEARS</small></div>
+   <div class="t e bw" data-m="Detail kecil, kesan besar."></div>
+   <div class="t f" data-m="Rapi tanpa terlihat berusaha."><em>hold on tight</em></div>
+  </div>
+  <div class="vb" id="vb"></div>
+ </div>
+ <h1 class="ttl">THE BIRTHDAY<br><i>Edition.</i></h1>
+ <p class="tip">geser garis di foto besar &amp; ketuk setiap foto ↔</p>
+ <b class="dg" style="right:26px;top:660px">★</b>
+</section>
+
+<section class="slide after" data-i="1">
+ <div class="top"><b>NO. 01</b><b>THE HEADLINE</b><b data-year></b></div>
+ <div class="age" id="age"><span data-age></span></div>
+ <h2 class="r" style="--i:0">ANOTHER YEAR.<br><i>Same legend.</i></h2>
+ <p class="body r" style="--i:1">Tidak semua orang tumbuh dengan suara yang keras. Sebagian tumbuh dengan diam, dengan kerja yang tidak selalu terlihat, dengan keputusan-keputusan kecil yang akhirnya membentuk seseorang yang bisa diandalkan. Hari ini, edisi khusus ini terbit hanya untuk satu nama: <b data-name></b>.</p>
+ <p class="tip">ketuk angka umurnya</p>
+ <b class="dg" style="left:16px;top:60px">+</b>
+</section>
+
+<section class="slide after" data-i="2">
+ <div class="top"><b>NO. 02</b><b>THE PORTRAIT</b><b>TAP +</b></div>
+ <div class="por" id="por"><div class="ph bw"></div>
+  <button class="hs" style="left:74%;top:40%" data-k="0">+</button><button class="hs" style="left:50%;top:62%" data-k="1">+</button><button class="hs" style="left:86%;top:86%" data-k="2">+</button></div>
+ <div class="cap" id="pc"><b>PRESENCE</b><span>Ketuk tanda + pada foto untuk membaca catatan redaksi.</span></div>
+</section>
+
+<section class="slide after" data-i="3">
+ <div class="top"><b>NO. 03</b><b>THE INDEX</b><b id="ic">0/6</b></div>
+ <h2 style="font-size:clamp(34px,11vw,52px)">SIX THINGS<br><i>about him.</i></h2>
+ <ul class="ix" id="ix"></ul>
+</section>
+
+<section class="slide after" data-i="4">
+ <div class="top"><b>NO. 04</b><b>MAKE A WISH</b><b>FIRE</b></div>
+ <svg class="ck" id="ck" viewBox="0 0 200 190"><g fill="none" stroke="#efece6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="100" cy="168" rx="84" ry="10"/><path d="M24 100v68M176 100v68"/><ellipse cx="100" cy="100" rx="76" ry="12"/><path d="M24 130q19 12 38 0t38 0 38 0 38 0"/><path d="M70 90v-30M100 88v-34M130 90v-30" stroke-width="5"/></g>
+  <g class="fl"><ellipse cx="70" cy="50" rx="5" ry="10" fill="#efece6"/><ellipse cx="100" cy="42" rx="5" ry="10" fill="#efece6"/><ellipse cx="130" cy="50" rx="5" ry="10" fill="#efece6"/></g></svg>
+ <p class="body c" id="wm">Semoga semua yang kamu perjuangkan tiba di waktunya, dan semoga kamu selalu punya alasan untuk bangga pada dirimu sendiri.</p>
+ <button class="btn" id="lg">LIGHT THE CANDLES</button><button class="btn dk" id="bl">BLOW THEM OUT</button><button class="lnk" id="mic">atau tiup lewat mic 🎤</button>
+</section>
+
+<section class="slide after" data-i="5">
+ <div class="top"><b>NO. 05</b><b>THE INTERVIEW</b><b id="qc">0/5</b></div>
+ <h2 style="font-size:clamp(34px,11vw,52px)">QUESTIONS<br><i>for the man.</i></h2>
+ <div class="qa" id="qa"></div>
+</section>
+
+<section class="slide after" data-i="6">
+ <div class="top"><b>NO. 06</b><b>THE LETTER</b><b>PRIVATE</b></div>
+ <div class="ltr"><div class="pt t bw"></div><div><h3>Untuk <span data-name></span>,</h3><p id="tw"></p></div></div>
+ <button class="btn show" id="tn">LANJUT ›</button>
+</section>
+
+<section class="slide after" data-i="7">
+ <div class="top"><b>BACK COVER</b><b>THE END</b><b data-year></b></div>
+ <h1 class="hb" id="hbd">HAPPY<br>BIRTH<br>DAY.</h1>
+ <div class="fin"><div class="pt2 t"></div><div><b data-name></b><small>AGE <span data-age></span> · EDITION <span data-year></span></small><div class="bars" id="bars"></div></div></div>
+ <button class="btn show" id="rp">↺ BACA ULANG</button>
+ <b class="dg" style="right:22px;top:56px">★</b>
+</section>
+
+<nav id="ui"><button id="prev">←</button><div id="dots"></div><span id="num">01/08</span><button id="next">→</button></nav>
+</main><div id="toast"></div>
+<script src="script.js"></script></body></html>
