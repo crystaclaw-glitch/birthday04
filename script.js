@@ -1,5 +1,5 @@
 // ✏️ UBAH DI SINI SAJA: nama, umur, panggilan
-const BIRTHDAY_CONFIG={name:"NAMA",age:25,nickname:"MR. SPECIAL",year:new Date().getFullYear()};
+const BIRTHDAY_CONFIG={name:"Laurent",age:23,nickname:"MR. SPECIAL",year:new Date().getFullYear()};
 const C=BIRTHDAY_CONFIG,A=C.age,$=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)],rnd=a=>a[Math.random()*a.length|0],vib=n=>navigator.vibrate&&navigator.vibrate(n);
 $$('[data-age]').forEach(e=>e.textContent=A);$$('[data-name]').forEach(e=>e.textContent=C.name);$$('[data-nick]').forEach(e=>e.textContent=C.nickname);$$('[data-year]').forEach(e=>e.textContent=C.year);
 $('#yr').innerHTML=[...String(C.year)].map(d=>`<span>${d}</span>`).join('');$('#vb').innerHTML=[...'BIRTHDAY'].map(d=>`<span>${d}</span>`).join('');
